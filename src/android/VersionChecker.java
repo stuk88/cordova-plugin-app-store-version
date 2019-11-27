@@ -1,4 +1,4 @@
-package com.kharryman.appupdate;
+package com.ugotit.storeappversion;
 
 import android.util.Log;
 import org.jsoup.Jsoup;
@@ -7,7 +7,7 @@ import java.io.IOException;
 public class VersionChecker extends AsyncTask<String, String, String> {
 
   String newVersion;
-  private static final String LOG_TAG = "AppUpdate";
+  private static final String LOG_TAG = "CheckAppStoreVersion";
 
   @Override
   protected String doInBackground(String... params) {

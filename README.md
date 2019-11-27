@@ -20,7 +20,7 @@ App updater for Cordova/PhoneGap
 
 - Simple:
 ```js
-        window.AppUpdate.checkAppUpdate(
+        window.CheckAppStoreVersion.checkAppUpdate(
           function(latestVersion){
             console.log("APP UPDATE SUCCESS latestVersion= " + latestVersion);
             deferred.resolve(latestVersion);

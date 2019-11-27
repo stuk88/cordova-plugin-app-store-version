@@ -1,4 +1,4 @@
-package com.kharryman.appupdate;
+package com.ugotit.storeappversion;
 
 import android.app.Activity;
 import android.Manifest;
@@ -11,9 +11,9 @@ import org.json.JSONException;
 
 import java.util.concurrent.ExecutionException;
 
-public class CheckAppUpdate extends CordovaPlugin {
-    public static final String TAG = "CheckAppUpdate";
-    private static final String LOG_TAG = "AppUpdate";
+public class CheckAppStoreVersion extends CordovaPlugin {
+    public static final String TAG = "CheckAppStoreVersion";
+    private static final String LOG_TAG = "CheckAppStoreVersion";
 
     @Override
 

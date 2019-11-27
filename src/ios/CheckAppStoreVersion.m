@@ -1,7 +1,7 @@
-#import "AppUpdate.h"
+#import "CheckAppStoreVersion.h"
 #import <Cordova/CDVPlugin.h>
 
-@implementation AppUpdate
+@implementation CheckAppStoreVersion
 
 - (void)checkAppUpdate:(CDVInvokedUrlCommand*)command {
     CDVPluginResult *pluginResult = nil;
