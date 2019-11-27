@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-app-store-version" version="1.0.0">
+
+    <name>AppUpdate</name>
+    <description>Cordova App Update for Android and iOS</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,update,app,auto,updater</keywords>
+
+    <js-module src="www/AppUpdate.js" name="AppUpdate">
+        <clobbers target="AppUpdate" />
+    </js-module>
+
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="AppUpdate">
+                <param name="android-package" value="com.kharryman.appupdate.CheckAppUpdate"/>
+                <param name="onload" value="true" />  <!-- Must Have -->
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <source-file src="src/android" target-dir="src/com/kharryman/appupdate"/>
+
+        <framework src="com.android.support:support-v4:24.1.1+" />
+        <framework src="app_update.gradle" custom="true" type="gradleReference" />
+    </platform>
+    <platform name="ios">
+       <config-file target="config.xml" parent="/*">
+         <feature name="AppUpdate">
+           <param name="ios-package" value="AppUpdate"/>
+         </feature>
+       </config-file>
+       <header-file src="src/ios/AppUpdate.h" />
+       <source-file src="src/ios/AppUpdate.m" />
+   </platform>
+
+</plugin>

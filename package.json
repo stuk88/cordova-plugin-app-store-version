@@ -1,0 +1,60 @@
+{
+  "_from": "cordova-plugin-app-store-version@^1.0.0",
+  "_id": "cordova-plugin-app-store-version@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-9VPALANxCoTkqgqhxtO5edyurs0R7boZfHvsgk2LtPg9DdVQkAPdO6jsYYem+njh8bRZ4PiUSf4FuKmWvjwEYg==",
+  "_location": "/cordova-plugin-app-store-version",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-app-store-version@^1.0.0",
+    "name": "cordova-plugin-app-store-version",
+    "escapedName": "cordova-plugin-app-store-version",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-app-store-version/-/cordova-plugin-app-store-version-1.0.0.tgz",
+  "_shasum": "e1316841e742ff2501a668cf343ddcd505e4e52e",
+  "_spec": "cordova-plugin-app-store-version@^1.0.0",
+  "_where": "/home/stas/Projects/Ugotit/app",
+  "author": {
+    "name": "Keith Harryman"
+  },
+  "bugs": {
+    "url": "https://github.com/kharryman/cordvoa-plugin-app-store-version/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-app-store-version",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova App Update for Android and iOS",
+  "homepage": "https://github.com/kharryman/cordvoa-plugin-app-store-version#readme",
+  "keywords": [
+    "cordova",
+    "update",
+    "app",
+    "auto",
+    "updater",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-app-store-version",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharryman/cordova-plugin-app-store-version.git"
+  },
+  "version": "1.0.0"
+}
