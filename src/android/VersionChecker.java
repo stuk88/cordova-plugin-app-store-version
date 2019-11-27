@@ -1,4 +1,4 @@
-package com.ugotit.storeappversion;
+package com.ugotit.app;
 
 import android.util.Log;
 import org.jsoup.Jsoup;

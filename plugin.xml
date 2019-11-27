@@ -24,6 +24,7 @@
         </config-file>
 
         <source-file src="src/android/CheckAppStoreVersion.java" target-dir="src/com/ugotit/app"/>
+        <source-file src="src/android/VersionChecker.java" target-dir="src/com/ugotit/app"/>
 
         <framework src="com.android.support:support-v4:24.1.1+" />
         <framework src="app_update.gradle" custom="true" type="gradleReference" />
