@@ -1,4 +1,4 @@
-package com.ugotit.storeappversion;
+package com.ugotit.app;
 
 import android.app.Activity;
 import android.Manifest;
