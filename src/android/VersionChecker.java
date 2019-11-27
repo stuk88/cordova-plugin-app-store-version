@@ -3,6 +3,7 @@ package com.ugotit.app;
 import android.util.Log;
 import org.jsoup.Jsoup;
 import java.io.IOException;
+import android.os.AsyncTask;
 
 public class VersionChecker extends AsyncTask<String, String, String> {
 
